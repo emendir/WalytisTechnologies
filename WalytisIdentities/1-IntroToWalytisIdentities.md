@@ -37,3 +37,9 @@ In the context of W3C's DID architecture, walytis_identities is a [DID method](h
 meaning that walytis_identities is a system for creating DIDs and managing DID-Documents.
 walytis_identities achieves this using the Walytis blockchain.
 
+
+
+## Source Code
+
+This project's repository is hosted on the following platforms:
+- https://github.com/emendir/WalytisIdentities

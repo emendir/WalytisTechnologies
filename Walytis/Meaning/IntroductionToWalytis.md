@@ -124,3 +124,9 @@ Brenthy & Walytis were initially developed as a single project.
 The database-blockchain machinery (Walytis) was split off from the rest (Brenthy) to allow that rest to be used to run other types of blockchains, facilitating blockchain inventors in the development of new kinds of blockchains.
 Now, Brenthy can run other types of blockchains at the same time as Walytis.
 
+
+
+## Source Code
+
+This project's repository is hosted on the following platforms:
+- https://github.com/emendir/Walytis_Beta

@@ -13,3 +13,5 @@ for md_file in get_markdown_files():
     command = f"markdown-link-check -c {MLC_CONF} -q {md_file}"
     # print(command)
     os.system(command)
+
+print("Finished checking markdown links.")

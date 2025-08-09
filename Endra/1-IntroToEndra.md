@@ -18,6 +18,15 @@ See the [EndraApp](../EndraApp/1-IntroToEndraApp.md) project for a GUI messaging
 - will become part of an expandable ecosystem incl. calendar and file-sharing
 - [app for desktop and mobile](https://github.com/emendir/EndraApp) (tested on Linux (Ubuntu x86-64) and Android (arm-64))
 
+### ToDo
+
+- [ ] rich text formatting
+- [ ] multimedia support
+- [ ] file transmission (with transmission progress tracking for large files)
+- [ ] audio calls
+- [ ] video calls
+- [ ] zip-file backups
+
 ### How it Works
 
 The Endra protocol is built from a modular set of components forming the [Endra Stack](./2-EndraStack.md).
@@ -34,3 +43,8 @@ Each of these components provides a certain set of features, and when they are c
 - [EndraApp](../EndraApp/1-IntroToEndraApp.md): A P2P encrypted messenger supporting multiple devices per user, built on Walytis.
 
 Learn more about the [EndraStack here](./2-EndraStack.md).
+
+## Source Code
+
+This project's repository is hosted on the following platforms:
+- https://github.com/emendir/Endra

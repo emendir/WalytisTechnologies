@@ -24,3 +24,9 @@ When a WalytisOffchchain block is created:
 - In a local encrypted database, the private content is stored, identified by the block ID of the Walytis block containing its metadata.
 - Other peers notice the metadata block on the underlying Walytis blockchain, and ask each other to share with them the WalytisOffchain-block's content.
 - When a peer asks another peer for the content of a block and the latter has it, the latter ensures the requesting peer is an authorised peer, and transmits to them the block content encrypted with the WalytisOffchain blockchain's WalytisIdentities cryptographic key.
+
+
+## Source Code
+
+This project's repository is hosted on the following platforms:
+- https://github.com/emendir/WalytisOffchain

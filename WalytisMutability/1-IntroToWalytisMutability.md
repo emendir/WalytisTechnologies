@@ -22,3 +22,8 @@ Thanks to the modular architecture of the Walytis Technologies, WalytisMutabilit
 ### Block Deletion
 
 - On the underlying Walytis blockchain, a new block is added with the meaningless placeholder content and two block topics: `MutaBlock-Deletion` and the block ID of the WalytisMutability block being edited.
+
+## Source Code
+
+This project's repository is hosted on the following platforms:
+- https://github.com/emendir/WalytisMutability

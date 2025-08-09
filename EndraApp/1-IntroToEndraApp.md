@@ -40,6 +40,11 @@ Coming soon: Nix, AUR
 Coming soon...
 
 ### iOS
-Coming soon (or a little later)
+probably coming later, in [Phase IV of the Endra Roadmap](../RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
 ### Windows
 Coming soon...
+
+## Source Code
+
+This project's repository is hosted on the following platforms:
+- https://github.com/emendir/EndraApp

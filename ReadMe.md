@@ -5,18 +5,18 @@ _A collection of tools for real-world peer-to-peer communications, built around 
 
 The Walytis Technologies are open-source modular systems built to enable developers to easily develop peer-to-peer distributed applications.
 
-#### Flagship
+### Flagship
 The flagship product of these modular systems is the [Endra Tech Stack](Endra/2-EndraStack.md), which combines all the Walytis technologies to produce the [Endra messaging protocol](Endra/1-IntroToEndra.md) and the the [Endra messenger application](./EndraApp).
 
-#### Core
+### Core
 At the core of these systems lies Walytis, a flexible, lightweight, nonlinear blockchain, serving as a peer-to-peer distributed database.
 It was the initial invention that led to the rest of the Walytis technologies, which include blockchain overlays that provide additional database features and other tools like cryptographic identity management and secure communications.
 
-#### Dependencies
+### Dependencies
 All Walytis technologies rely fully on IPFS, the InterPlanetary File System and libp2p, which are developed by ProtocolLabs.
 They are the peer-to-peer networking foundation for all Walytis technologies.
 
-### Components Overview
+## Components Overview
 
 Currently, the Walytis Technologies project comprises the following components, with more coming soon: 
 - [Walytis](Walytis/Meaning/IntroductionToWalytis.md): A flexible, lightweight, nonlinear database-blockchain, built on IPFS.
@@ -39,11 +39,23 @@ These systems are modular, allowing developers to choose and combine those compo
 ### Programming Languages
 
 Currently, all Walytis technologies are built in Python.
-In the future, they will be rewritten into a compiled language to make them easier to use in other languages, perhaps even with WebAssembly support. 
+In the future, they [will be rewritten into a compiled language](PortToCompiledSoftware.md) to make them easier to use in other languages, perhaps even with WebAssembly support. 
 
 ### Target Devices
 These systems are built to be cross-platform for desktop, mobile and server computers.
 So far, they've been tested on Linux and Android.
+
+## Project Status & [Roadmap](RoadMap.md)
+
+The components of Walytis Technologies are all in alpha or beta phase.
+This means they're fully functional and demonstrable, but still under very active development and are not ready for production use-cases.
+
+Currently, the main focus of development is to improve the performance and reliability of the [Endra stack](Endra/2-EndraStack.md), as well as multimedia and audio & video calls for the Endra Protocol & App.
+
+Once these components reach maturity, [they will be rewritten in a compiled language](PortToCompiledSoftware.md), mainly to improve portability and performance.
+
+For more details,  see the [Walytis Technologies Roadmap](RoadMap.md).
+
 
 ## Open-Source in the Public Domain
 
