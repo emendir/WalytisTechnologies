@@ -1,11 +1,11 @@
 
-## ✅ Phase I - Reinvent Blockchain ([Walytis](Walytis/Meaning/IntroductionToWalytis.md))
+## ✅ Phase I - Reinvent Blockchain ([Walytis](Walytis/Meaning/IntroductionToWalytis.md)) (2019-2024)
 - [x] proof of concept
 - [x] automated testing
 - [x] beta maturity
 - [x] documentation
 
-## ✅ Phase II - Develop Functional Endra Stack and App
+## ✅ Phase II - Develop Functional Endra Stack and App (2024-2025)
 
 - [x] identity management ([WalytisIdentities](WalytisIdentities/1-IntroToWalytisIdentities.md))
 - [x] access control and confidentiality ([ToWalytisOffchain](WalytisOffchain/1-IntroToWalytisOffchain.md)) 
@@ -14,7 +14,7 @@
 	- [x] linux standalone package
 	- [x] mobile
 
-## Phase III - Achieve Protocol Maturity
+## Phase III - Achieve Protocol Maturity (2025-)
 
 - [ ] Endra Protocol: improve reliability and speed (to degree necessary for production-grade messaging)
 	- [ ] develop chaotic simulation test
