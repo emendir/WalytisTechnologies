@@ -16,14 +16,14 @@ The Endra stack combines modularised solutions to each of these questions in a l
 | Walytis-Offchain                 | - private encrypted blocks<br>- contact authentication                              |                                                                      |
 | Walytis-Identities               | - identities, cryptographic key management                                          | - multi-device identities<br>- multi-controller key management       |
 | Walytis                          | - distributed database<br>- new blocks notification<br>- data integrity maintenance | - identification of database peers                                   |
-| IPFS/libp2p<br>(by ProtocolLabs) | - file sharing                                                                      | - persistent peer addressing<br>- P2P routing<br>- NAT-hole-punching |
+| IPFS/libp2p<br>(by Protocol Labs) | - file sharing                                                                      | - persistent peer addressing<br>- P2P routing<br>- NAT-hole-punching |
 
 
 - **[Endra](../Endra/1-IntroToEndra.md):** a fully distributed, peer-to-peer encrypted messaging protocol, built on Walytis and its blockchain-overlays
 - **[WalytisIdentities](../WalytisIdentities/1-IntroToWalytisIdentities.md), [WalytisOffchain](../WalytisOffchain/1-IntroToWalytisOffchain.md), [WalytisMutability](../WalytisMutability/1-IntroToWalytisMutability.md):** blockchain-overlays - systems providing an interface with additional features to Walytis databases
 - **[Walytis](../Walytis/Meaning/IntroductionToWalytis.md):** a database blockchain - a lightweight, non-linear & flexible blockchain for distributed databases, built on IPFS
-- **[IPFS](https://ipfs.tech):** Interplanetary File System - a peer-to-peer communications and content sharing protocol, built on libp2p, developed by ProtocolLabs
-- **[libp2p](https://libp2p.io/):** a peer-to-peer OSI layer 3 communications protocol used as an overlay over the internet protocol, developed by ProtocolLabs
+- **[IPFS](https://ipfs.tech):** Interplanetary File System - a peer-to-peer communications and content sharing protocol, built on libp2p, developed by Protocol Labs
+- **[libp2p](https://libp2p.io/):** a peer-to-peer OSI layer 3 communications protocol used as an overlay over the internet protocol, developed by Protocol Labs
 
 #### The Internet Protocol - The Networking Foundation
 

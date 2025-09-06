@@ -32,9 +32,11 @@ See the [EndraApp](../EndraApp/1-IntroToEndraApp.md) project for a GUI messaging
 The Endra protocol is built from a modular set of components forming the [Endra Stack](./2-EndraStack.md).
 Each of these components provides a certain set of features, and when they are combined, they provide all that is needed for a fully featured peer-to-peer messaging protocol.
 
+To understand the way Endra works with the concepts of user, device, message, chat etc, see [Endra Architecture](3-EndraArchitecture.md).
+
 #### Overview of the [EndraStack](./2-EndraStack.md)
 
-- [IPFS](https://ipfs.tech):  A P2P communication and content addressing protocol developed by ProtocolLabs.
+- [IPFS](https://ipfs.tech):  A P2P communication and content addressing protocol developed by Protocol Labs.
 - [Walytis](../Walytis/Meaning/IntroductionToWalytis.md): A flexible, lightweight, nonlinear database-blockchain, built on IPFS.
 - [WalytisIdentities](../WalytisIdentities/1-IntroToWalytisIdentities.md): P2P multi-controller cryptographic identity management, built on Walytis.
 - [WalytisOffchain](../WalytisOffchain/1-IntroToWalytisOffchain.md): Secure access-controlled database-blockchain, built on WalytisIdentities.

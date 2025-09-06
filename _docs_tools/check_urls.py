@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check if all hyperlinks in all markdown documents are valid.
+"""Check if all hyperlinks in the whole project's markdown documents are valid.
 
 ## Prerequisite:
 npm install -g markdown-link-check
