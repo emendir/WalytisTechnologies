@@ -1,6 +1,6 @@
 # Walytis
 
-**_A flexible, lightweight, nonlinear blockchain, serving as a p2p distributed database._**
+**_A flexible, lightweight, nonlinear blockchain, serving as a P2P distributed database._**
 
 _`4D61646520776974682073696E63657265206C6F766520666F72206D616E6B696E642E`_
 
@@ -29,11 +29,11 @@ To gain a deeper understanding of Walytis' unique properties and how it differs 
 
 _A list of the most significant features that set this blockchain apart from classical blockchains such as Bitcoin and Ethereum_
 
-- flexible: applications can create a blockchain for any use-case they have
+- flexible: applications can create a new blockchain for any use-case
 - no block time: blocks can be added instantly
 - no block competition: no uncertainty whether a block you're trying to add to the blockchain will make it
 - no mining - completely decentralised, no hierarchy in participant nodes - no wasting resources for proof of work - every blockchain user is a full node in the blockchain
-- lightweight and resource-efficient: A full node can comfortably be run on a smartphone or Raspberry Pi (not that there are any node types other than full). Shall we test an Esp32 microcontroller running Linux next?
+- lightweight and resource-efficient: can comfortably be run on a smartphone or Raspberry Pi
 - no tokenisation or other financioid systems built in
 - accessibility: To get started, users only need to install the software. They can then immediately start using it and building on it in Python, one of the most popular programming languages (support for other languages should be relatively easy to build)
 

@@ -31,11 +31,11 @@ So far, it has been tested on Linux (Ubuntu) and Android.
 
 Package build pipelines have been developed for the following formats:
 ### Linux
-- flatpak
+- flatpak for x86-64
 
-Coming soon: Nix, AUR
+Coming soon: Nix, AUR, arm86
 ### Android
-- APK
+- APK for arm-64
 ### MacOS
 Coming soon...
 
