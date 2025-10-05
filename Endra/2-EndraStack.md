@@ -9,14 +9,14 @@ The Endra stack combines modularised solutions to each of these questions in a l
 ### Endra Tech Stack Components
 #### Overview
 
-| Layer                            | Data Features                                                                       | Networking Features                                                  |
-| -------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Endra                            | - organisation of identities, contacts & chats                                      | - near-instant messaging                                             |
-| Walytis-Mutability               | - mutable blocks (for editable messages)                                            |                                                                      |
-| Walytis-Offchain                 | - private encrypted blocks<br>- contact authentication                              |                                                                      |
-| Walytis-Identities               | - identities, cryptographic key management                                          | - multi-device identities<br>- multi-controller key management       |
-| Walytis                          | - distributed database<br>- new blocks notification<br>- data integrity maintenance | - identification of database peers                                   |
-| IPFS/libp2p<br>(by Protocol Labs) | - file sharing                                                                      | - persistent peer addressing<br>- P2P routing<br>- NAT-hole-punching |
+| Layer                                                                     | Data Features                                                                       | Networking Features                                                  |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Endra](../Endra/1-IntroToEndra.md)                                       | - organisation of identities, contacts & chats                                      | - near-instant messaging                                             |
+| [Walytis-Mutability](../WalytisMutability/1-IntroToWalytisMutability.md)  | - mutable blocks (for editable messages)                                            |                                                                      |
+| [Walytis-Offchain](../WalytisOffchain/1-IntroToWalytisOffchain.md)        | - private encrypted blocks<br>- contact authentication                              |                                                                      |
+| [Walytis-Identities](../WalytisIdentities/1-IntroToWalytisIdentities.md)  | - identities<br>- cryptographic key management                                      | - multi-device identities<br>- multi-controller key management       |
+| [Walytis](../Walytis/Meaning/IntroductionToWalytis.md)                    | - distributed database<br>- new blocks notification<br>- data integrity maintenance | - identification of database peers                                   |
+| [IPFS](https://ipfs.tech)/[libp2p](https://libp2p.io/) (by Protocol Labs) | - file sharing                                                                      | - persistent peer addressing<br>- P2P routing<br>- NAT-hole-punching |
 
 
 - **[Endra](../Endra/1-IntroToEndra.md):** a fully distributed, peer-to-peer encrypted messaging protocol, built on Walytis and its blockchain-overlays

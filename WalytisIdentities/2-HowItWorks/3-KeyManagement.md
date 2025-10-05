@@ -13,7 +13,7 @@ These keys' public parts are published on the identity's blockchain in dedicated
 Ownership of these control keys means ownership of the identity.
 
 For security, these keys are regularly renewed.
-Each new key's public part is published on the identity's blockchain, signed by its predecessor key, forming an uninterruptedly authenticated lineage of keys.
+Each new key's public part is published on the identity's blockchain, signed by its predecessor key, forming an uninterruptedly authenticated lineage of keys (Key continuity via key succession signatures).
 
 WalytisIdentities' control key-management system's scope is limited to ensuring there is always one currently valid ephemeral control key.
 DID-Document management is independent of control-key management: At any time, a DID-document can be created, signed and published with the current control key.

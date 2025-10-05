@@ -14,6 +14,7 @@ See the [EndraApp](../EndraApp/1-IntroToEndraApp.md) project for a GUI messaging
 - full end-to-end encryption ephemeral keys, algorithm-agnostic & future-proof
 - multiple devices per profile (user account)
 - multiple profiles per device
+- arbitrary number of members in group chats
 - can be used as a library for embedding into other applications
 - will become part of an expandable ecosystem incl. calendar and file-sharing
 - [app for desktop and mobile](https://github.com/emendir/EndraApp) (tested on Linux (Ubuntu x86-64) and Android (arm-64))
@@ -32,7 +33,7 @@ See the [EndraApp](../EndraApp/1-IntroToEndraApp.md) project for a GUI messaging
 The Endra protocol is built from a modular set of components forming the [Endra Stack](./2-EndraStack.md).
 Each of these components provides a certain set of features, and when they are combined, they provide all that is needed for a fully featured peer-to-peer messaging protocol.
 
-To understand the way Endra works with the concepts of user, device, message, chat etc, see [Endra Architecture](3-EndraArchitecture.md).
+To understand the way Endra works with the concepts of user, device, message, chat etc, see [Endra Architecture](3-MessagingArchitecture.md).
 
 #### Overview of the [EndraStack](./2-EndraStack.md)
 

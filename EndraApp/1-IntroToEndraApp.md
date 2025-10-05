@@ -24,16 +24,16 @@ The GUI framework used is [kivy](https://kivy.org/).
 For the Endra App portable executable, the entire Endra stack (including IPFS) is embedded into a python library.
 Alternatively, the source code can be run using separate IPFS and Walytis services running in the background of the operating system.
 
-## OS Compatibility
+## OS Compatibility & Download
 
 The Endra app is designed to be cross-platform for desktop and mobile.
-So far, it has been tested on Linux (Ubuntu) and Android.
+So far, it has been tested on Linux (Ubuntu 24), Android, and Windows 11.
 
-Package build pipelines have been developed for the following formats:
+Package build pipelines have been developed for the below listed formats, and can be [downloaded here](https://github.com/emendir/EndraApp/releases).
 ### Linux
-- flatpak for x86-64
+- flatpak for x86-64 and arm64
 
-Coming soon: Nix, AUR, arm86
+Coming soon: Nix, AUR
 ### Android
 - APK for arm-64
 ### MacOS
@@ -41,8 +41,9 @@ Coming soon...
 
 ### iOS
 probably coming later, in [Phase IV of the Endra Roadmap](../RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
+
 ### Windows
-Coming soon...
+- portable EXE for x86_64
 
 ## Source Code
 
