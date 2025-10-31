@@ -1,7 +1,7 @@
 
 # Endra Protocol
 
-_A peer-to-peer encrypted messaging protocol supporting multiple devices per user._
+_A peer-to-peer encrypted messaging protocol._
 
 Endra can be used for more than just instant messaging - shared calendars, project management tools and an endless amount of distributed communications systems can be built using it.
 
@@ -11,7 +11,8 @@ See the [EndraApp](../EndraApp/1-IntroToEndraApp.md) project for a GUI messaging
 
 - fully peer to peer, no servers of any kind
 - can function independently of internet connectivity
-- full end-to-end encryption across multiple devices, ephemeral keys, algorithm-agnostic & future-proof
+- full end-to-end encryption across multiple devices and group chats
+- cryptography: ephemeral keys, algorithm-agnostic & future-proof
 - multiple devices per profile (user account)
 - multiple profiles per device
 - arbitrary number of members in group chats

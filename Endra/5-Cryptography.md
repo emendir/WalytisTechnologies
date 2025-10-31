@@ -1,3 +1,5 @@
+# Cryptography
+
 Due to the modular nature of Endra's communications architecture, different cryptographic processes are managed by different layers in the [EndraStack](2-EndraStack.md).
 This page provides an overview of cryptographic processes in Endra, while the details are explained in the dedicated documentation for the component modules:
 - [WalytisOffchain: Content Encryption, Authentication & Storage](../WalytisOffchain/1-IntroToWalytisOffchain.md)
