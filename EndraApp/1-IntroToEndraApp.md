@@ -26,24 +26,30 @@ Alternatively, the source code can be run using separate IPFS and Walytis servic
 
 ## OS Compatibility & Download
 
-The Endra app is designed to be cross-platform for desktop and mobile.
-So far, it has been tested on Linux (Ubuntu 24), Android, and Windows 11.
+The Endra application is designed to be cross-platform for desktop and mobile.
+So far, it has been tested on Linux (Ubuntu 24 x86-64 & arm64), Android (arm64), Windows 11 (x86-64) and MacOS (x86-64 & arm64).
 
-Package build pipelines have been developed for the below listed formats, and can be [downloaded here](https://github.com/emendir/EndraApp/releases).
+Package build pipelines have been developed for the below listed formats.
+You can [download these application packages here](https://github.com/emendir/EndraApp/releases).
+
 ### Linux
 - flatpak for x86-64 and arm64
+- executable binary for x86-64 and arm64
 
 Coming soon: Nix, AUR
+
 ### Android
-- APK for arm-64
+- APK for arm64
+
 ### MacOS
-Coming soon...
+- executable binary for x86-64 and arm64
+- .app package for x86-64 and arm64
 
 ### iOS
 probably coming later, in [Phase IV of the Endra Roadmap](../RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
 
 ### Windows
-- portable EXE for x86_64
+- portable EXE for x86-64
 
 ## Source Code
 

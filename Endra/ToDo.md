@@ -1,0 +1,8 @@
+- multiple devices per user
+- group chats
+- networking
+	- peer discovery
+	- synchronisation
+	- offline support
+- security
+- 

@@ -12,25 +12,33 @@ Cryptographic technologies are employed by Endra to provide three essential feat
 
 ## Areas of Application
 ### Identity Management
+_See [WalytisIdentities-KeyManagement](../WalytisIdentities/2-HowItWorks/3-KeyManagement.md)._
 
-- Key continuity via key succession signatures
-- Identities are nested (Groups have multiple Users, Users have multiple devices), each with their own Identity-Keys
-- Private keys are securely shared among members via direct transmissions (to be strengthened in the near future with triple-layer encyrption: old group key, member key & spontaneously generated ephemeral key)
-- algorithm agnostic (supports multiple different cryptographic algorithms)
-- See [WalytisIdentities-KeyManagement](../WalytisIdentities/2-HowItWorks/3-KeyManagement.md).
+- Each Identity has its own Identity-Key (also called Identity-Control Key) used for authentication and encryption.
+- Identities are nested (e.g. Groups have multiple Users, Users have multiple devices), each with their own Identity-Keys. A Super-Identity always has one or more Member-Identities.
+- Identity-Keys are ephemeral and regularly renewed.
+- Identity-Key continuity is ensured via key succession signatures.
+- During key renewal of a Super-Identity, private keys are securely shared among its Member-Identities via direct transmissions using a triple-layer encryption scheme (see [Data Transmission](#Data%20Transmission)).
+- This cryptography is algorithm agnostic (supports multiple different cryptographic algorithms).
+- In the future, multiple different cryptographic algorithms will be used at the same time to provide resistance to zero-day vulnerabilities in cryptographic algorithms #TODO.
 
 
 ### Data Transmission
+_See [WalytisIdentities-SecureDataTransmission](../WalytisIdentities/2-HowItWorks/7-SecureDataTransmission.md)._
 
 - Sensitive information is transmitted  directly between users' devices.
-- Encrypted with key of GroupDidManager
-- Will be strengthened in the near future with two more layers of encryption: member's key and spontaneously generated ephemeral key
+- This always happens in the context of a nested identity: two Identities who are both members of the same Super-Identity. 
+- Sensitive content is encrypted three times:
+	- Super-Identity's key: to ensure the message can only be read by someone who knows the Super-Identity's private keys
+	- Key of the recipient Identity: to ensure the message can only be read by someone who knows the intended recipient Identity's private keys
+	- Ephemeral session-specific key: to maintain confidentiality should the above Identity-Keys both be compromised, as well as to provide perfect forward secrecy and post-compromise security should this ephemeral key itself be compromised also.
+- In the future, multiple different cryptographic algorithms will be used at the same time to provide resistance to zero-day vulnerabilities in cryptographic algorithms #TODO.
 
-- In the farther future, I might add support for sensitive data transmission via untrusted relays using double-ratchet cryptography.
+- In the farther future, I might add support for sensitive data transmission via untrusted relays using something like double-ratchet cryptography. #TODO
 
 ### Data Storage
 
-- All private content (e.g. messages) are stored locally on each node/peer's filesystem in an SQLite database (to be encrypted in the near future).
+- All private content (e.g. messages) are stored locally on each node/peer's filesystem in an SQLite database (to be encrypted in the near future). #TODO
 - All private keys are stored locally on each node/peer's filesystem encrypted in a JSON file. 
 
 ### Data Indexing and Provenance
@@ -40,5 +48,10 @@ Cryptographic technologies are employed by Endra to provide three essential feat
 	- keeping track of what data exists in a dataset, when it was produced and changed
 - Endra relies on the blockchain technology in its Walytis databases to ensure data cannot be lost/hidden or fraudulently changed. Essentially, every new piece of data is organised into a block, which references the cryptographic hashes of previous blocks, so that each block is part of a chain that records the existence indirectly the content of all previous blocks. To learn more, see [Block-Chaining](../Walytis/Technical/Block-Chaining.md) and [WalytisBlockchainSecurity](../Walytis/Technical/WalytisBlockchainSecurity.md).
 
+## Post-Compromise Recovery
+
+_What security goals are compromised to what extent by various cryptographic breaches._
+
+#TODO
 
 

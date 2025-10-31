@@ -11,7 +11,7 @@ See the [EndraApp](../EndraApp/1-IntroToEndraApp.md) project for a GUI messaging
 
 - fully peer to peer, no servers of any kind
 - can function independently of internet connectivity
-- full end-to-end encryption ephemeral keys, algorithm-agnostic & future-proof
+- full end-to-end encryption across multiple devices, ephemeral keys, algorithm-agnostic & future-proof
 - multiple devices per profile (user account)
 - multiple profiles per device
 - arbitrary number of members in group chats

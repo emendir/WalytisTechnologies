@@ -27,6 +27,13 @@ Due to the modular layered nature of the [Endra Stack](2-EndraStack.md), the way
 - Layer WalytisOffchain: encrypted content stored off-chain is [transmitted between peers](../WalytisOffchain/1-IntroToWalytisOffchain.md) over [IPFS TCP](https://docs.ipfs.tech/reference/kubo/rpc/#api-v0-p2p-forward) tunnels using the [IPFS-DataTransmission protocol from IPFS-Toolkit](https://github.com/emendir/IPFS-Toolkit-Python#ipfs-datatransmission) . This data is only transmitted to peers upon authentication and is encrypted for transmission.
 - Layer Walytis: Walytis blocks are shared as IPFS files. The existence of blocks [is communicated via](../Walytis/Technical/LeafBlockBroadcasts.md) [IPFS-PubSub](https://docs.ipfs.tech/concepts/libp2p/#publish-subscribe).
 
+### Concurrency and Ordering
+
+Endra has excellent concurrency handling due to the non-linear blockchain-technology powering its distributed Walytis databases.
+This means it is no problem for multiple users to write messages in the same Group chat simultaneously, or even different Devices of the same User.
+
+While the Walytis databases natively provide a significant level of proven chronology between blocks of data, blocks can still be simultaneous if sent from different devices at close enough intervals.
+In future developments, if simulatneous blocks cause conflicts at higher levels (e.g. in Walytis Mutability), time-stamps will be used for ordering as a fallback.
 
 ## Sensitive and Unsensitive Data
 
