@@ -30,11 +30,11 @@ _See [WalytisIdentities-SecureDataTransmission](../WalytisIdentities/2-HowItWork
 
 - Sensitive information is transmitted  directly between users' devices.
 - This always happens in the context of a nested identity: two Identities who are both members of the same Super-Identity. 
-- Sensitive content is encrypted three times:
+- Sensitive content is encrypted with three groups of keys from different owners/scopes:
 	- Super-Identity's key: to ensure the message can only be read by someone who knows the Super-Identity's private keys
 	- Key of the recipient Identity: to ensure the message can only be read by someone who knows the intended recipient Identity's private keys
 	- Ephemeral session-specific key: to maintain confidentiality should the above Identity-Keys both be compromised, as well as to provide perfect forward secrecy and post-compromise security should this ephemeral key itself be compromised also.
-- In the future, multiple different cryptographic algorithms will be used at the same time to provide resistance to zero-day vulnerabilities in cryptographic algorithms #TODO.
+- For each of the three key ownership/scope groups listed above, multiple keys for different cryptographic algorithms are used to provide resistance to zero-day vulnerabilities in cryptographic algorithms (hybrid cryptography). The cryptographic algorithms used are documented in [8-CryptographicAlgorithms](8-CryptographicAlgorithms.md).
 
 - In the farther future, I might add support for sensitive data transmission via untrusted relays using something like double-ratchet cryptography. #TODO
 
