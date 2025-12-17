@@ -11,7 +11,10 @@ Compared to the Walytis blockchain, WalytisOffchain has the following unique fea
 
 ## How it Works
 
+_For more details, see [How-It-Works](2-How-It-Works.md)._
+
 #### Authorised Peer and Cryptographic Key Management
+
 WalytisOffchain is built on WalytisIdentities, a peer-to-peer cryptographic identity management system that uses ephemeral keys and supports multiple controllers per identity.
 Each WalytisOffchain blockchain is a unique WalytisIdentities identity, and the authorised peers are the WalytisIdentities identity's identity controllers.
 
@@ -19,8 +22,8 @@ Each WalytisOffchain blockchain is a unique WalytisIdentities identity, and the 
 
 When a WalytisOffchchain block is created:
 - On the underlying Walytis blockchain, a block containing metadata of WalytisOffchain block is added, comprising:
-	- ID of the author
-	- signature of the author on the WalytisOffchain block content
+	- the ID of the author
+	- the signature of the author on the WalytisOffchain block content
 - In a local encrypted database, the private content is stored, identified by the block ID of the Walytis block containing its metadata.
 - Other peers notice the metadata block on the underlying Walytis blockchain, and ask each other to share with them the WalytisOffchain-block's content.
 - When a peer asks another peer for the content of a block and the latter has it, the latter ensures the requesting peer is an authorised peer, and transmits to them the block content encrypted with the WalytisOffchain blockchain's WalytisIdentities cryptographic key.

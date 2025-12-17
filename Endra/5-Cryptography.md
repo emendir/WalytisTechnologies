@@ -22,7 +22,7 @@ _See [WalytisIdentities-KeyManagement](../WalytisIdentities/2-HowItWorks/3-KeyMa
 - Identity-Key continuity is ensured via key succession signatures.
 - During key renewal of a Super-Identity, private keys are securely shared among its Member-Identities via direct transmissions using a triple-layer encryption scheme (see [Data Transmission](#Data%20Transmission)).
 - This cryptography is algorithm agnostic (supports multiple different cryptographic algorithms).
-- In the future, multiple different cryptographic algorithms will be used at the same time to provide resistance to zero-day vulnerabilities in cryptographic algorithms #TODO.
+- Multiple different cryptographic algorithms are compounded to provide resistance to zero-day vulnerabilities in cryptographic algorithms.
 
 
 ### Data Transmission
@@ -34,13 +34,13 @@ _See [WalytisIdentities-SecureDataTransmission](../WalytisIdentities/2-HowItWork
 	- Super-Identity's key: to ensure the message can only be read by someone who knows the Super-Identity's private keys
 	- Key of the recipient Identity: to ensure the message can only be read by someone who knows the intended recipient Identity's private keys
 	- Ephemeral session-specific key: to maintain confidentiality should the above Identity-Keys both be compromised, as well as to provide perfect forward secrecy and post-compromise security should this ephemeral key itself be compromised also.
-- For each of the three key ownership/scope groups listed above, multiple keys for different cryptographic algorithms are used to provide resistance to zero-day vulnerabilities in cryptographic algorithms (hybrid cryptography). The cryptographic algorithms used are documented in [8-CryptographicAlgorithms](8-CryptographicAlgorithms.md).
+- For each of the three key ownership/scope groups listed above, multiple keys for different cryptographic algorithms are compounded to provide resistance to zero-day vulnerabilities in cryptographic algorithms (hybrid cryptography). The cryptographic algorithms used are documented in [8-CryptographicAlgorithms](8-CryptographicAlgorithms.md).
 
 - In the farther future, I might add support for sensitive data transmission via untrusted relays using something like double-ratchet cryptography. #TODO
 
 ### Data Storage
 
-- All private content (e.g. messages) are stored locally on each node/peer's filesystem in an SQLite database (to be encrypted in the near future). #TODO
+- All private content (e.g. messages) are stored locally on each node/peer's filesystem in an SQLite database, encrypted with compounded keys of different algorithms which are each used a limited number of times, but not rotated over time. See [WalytisOffchain - Storage Encryption](../WalytisOffchain/2-How-It-Works.md#Storage%20Encryption).
 - All private keys are stored locally on each node/peer's filesystem encrypted in a JSON file. 
 
 ### Data Indexing and Provenance
