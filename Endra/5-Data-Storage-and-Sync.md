@@ -32,7 +32,7 @@ Due to the modular layered nature of the [Endra Stack](2-EndraStack.md), the way
 Endra has excellent concurrency handling due to the non-linear blockchain-technology powering its distributed Walytis databases.
 This means it is no problem for multiple users to write messages in the same Group chat simultaneously, or even different Devices of the same User.
 
-While the Walytis databases natively provide a significant level of proven chronology between blocks of data, blocks can still be simultaneous if sent from different devices at close enough intervals.
+While Walytis databases natively provide a significant level of proven chronology between blocks of data, blocks can still be simultaneous if sent from different devices at close enough intervals.
 In future developments, if simulatneous blocks cause conflicts at higher levels (e.g. in Walytis Mutability), time-stamps will be used for ordering as a fallback.
 
 ## Sensitive and Unsensitive Data

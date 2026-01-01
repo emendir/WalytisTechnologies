@@ -12,7 +12,7 @@ Here are some notable security and privacy concerns which Endra does not address
 ## Attack Vectors
 
 ### Network
-- Most of the cryptographic processes described in [5-Cryptography](5-Cryptography.md) are designed to protect against network-communications-based attack vectors, such as passive interception and active initiation of communications in any layer of the EndraStack.
+- Most of the cryptographic processes described in [6-Cryptography](6-Cryptography.md) are designed to protect against network-communications-based attack vectors, such as passive interception and active initiation of communications in any layer of the EndraStack.
 
 #### Spam & DDoS
 
@@ -22,7 +22,7 @@ _The following spam and DDoS mitigations have not yet been implemented_
 - Multiple redundant communication endpoints will be used in parallel so that if one is compromised, it can be immediately be deactivated.
 ### Device
 
-- As described in [Cryptography - Data Storage](5-Cryptography.md#Data%20Storage), data storage on users' devices is encrypted.
+- As described in [Cryptography - Data Storage](6-Cryptography.md#Data%20Storage), data storage on users' devices is encrypted.
 - This is managed in a less sophisticated fashion than for networked data because the latter is assumed to be at greater risk.
 - For example, no key renewal is currently implemented for the encryption of local storage.
 

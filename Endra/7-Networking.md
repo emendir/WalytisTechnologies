@@ -31,5 +31,5 @@ _not bridging as in a network bridge_
 
 ## Data Transmission
 
-See [How Data is Shared](4-Data-Storage-and-Sync.md#How%20Data%20is%20Shared).
+See [How Data is Shared](5-Data-Storage-and-Sync.md#How%20Data%20is%20Shared).
 
