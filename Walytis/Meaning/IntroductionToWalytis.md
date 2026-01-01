@@ -27,12 +27,14 @@ To gain a deeper understanding of Walytis' unique properties and how it differs 
 
 ## Features
 
+### Unique Blockchain Properties
+
 _A list of the most significant features that set this blockchain apart from classical blockchains such as Bitcoin and Ethereum_
 
 - flexible: applications can create a new blockchain for any use-case
 - no block time: blocks can be added instantly
 - no block competition: no uncertainty whether a block you're trying to add to the blockchain will make it
-- no mining - completely decentralised, no hierarchy in participant nodes - no wasting resources for proof of work - every blockchain user is a full node in the blockchain
+- no mining: completely decentralised, no hierarchy in participant nodes - no wasting resources for proof of work - every blockchain user is a full node in the blockchain
 - lightweight and resource-efficient: can comfortably be run on a smartphone or Raspberry Pi
 - no tokenisation or other financioid systems built in
 - accessibility: To get started, users only need to install the software. They can then immediately start using it and building on it in Python, one of the most popular programming languages (support for other languages should be relatively easy to build)

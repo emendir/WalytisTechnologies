@@ -74,7 +74,7 @@ The mechanisms for using Walytis blockchains in such a way to achieve linearity 
 See [Blockchain Overlays](./IntroductionToWalytis.md#Blockchain%20Overlays) for details on this and other modules that provide other kinds of properties such as mutability and privacy.
 
 # Chronology
-Chronology is the set of features and properties of a blockchain which revolve around the questions of, assuming unreliable timestamps, if/how/when it is possible to determine which block in any pair of blocks was created first, or whether instead the pair of blocks must be treated as having been created at the same time.
+Chronology is the set of features and properties of a blockchain which revolve around the questions of, assuming unreliable wall-clock timestamps, if/how/when it is possible to determine which block in any pair of blocks was created first, or whether instead the pair of blocks must be treated as having been created at the same time.
 
 In linear blockchains the chronology of the blocks is always clear, i.e. it is always clear which block came before which.
 In non-linear blockchains the chronology is more limited.

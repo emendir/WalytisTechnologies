@@ -17,27 +17,28 @@ Let's look at some homologies between conventional database management systems a
 
 ## Metadata Fields
 
-##### Standard Metadata Fields
-Most of a block's metadata fields such as creator, time-stamp etc. exist for technical reasons specific to mechanisms by which Walytis works.
+### Available Metadata Fields
 
-##### Custom Metadata Fields
-However, blocks also contain a field called `topics`, which is a list of strings, in which the programmer can store any number of custom pieces of data.
-The `topics` field exists specifically to allow the programmer to query their blocks efficiently by labelling or categorising them using the `topics` field.
+Blocks have a number of metadata fields.
+Some of these are essential elements of how Walytis works (e.g. block ID, content hash), others are purely informative (e.g. creator ID, creation time).
 
-#### Relevant Block Metadata Fields
+Each block also has a metadata field for custom user/programmer-defined metadata.
+This metadata field is called `topics`, which is an ordered list of strings, in which the programmer can store any number of custom pieces of data.
+The `topics` field exists specifically to allow the programmer add labels to their blocks for efficient querying.
+Since these labels are part of the block ID, searching/filtering for blocks with specific labels is much faster than searching for blocks with specific data encoded in their block content.
 
-These are the block metadata fields you as the user of a Walytis blockchain as a database are most likely to be interested in when querying blocks:
-
-| Field Name       | Data Type       | Description                                                     |
-| ---------------- | --------------- | --------------------------------------------------------------- |
-| `topics`         | list of strings | user-defined metadata for labelling blocks                      |
-| `long_id`        | array of bytes  | the full identifier of a block, encoding all its other metadata |
-| `creation_time`  | date-time       | the time at which the block was created                         |
-| `creator_id`     | str             | the IPFS peer-ID of the blockchain node that created this block |
-| `content_length` | integer         | the size of the block's content in bytes                        |
-| `content_hash`   | array of bytes  | a cryptographic hash of the block's content                     |
-
+Below is a table listing the block metadata fields you as the user of a Walytis blockchain as a database are most likely to be interested in when querying blocks.
 A complete list of a block's metadata fields is in [Blocks - Block Metadata](../Technical/Blocks.md#block-metadata).
+
+| Field Name       | Data Type       | Description                                                                  |
+| ---------------- | --------------- | ---------------------------------------------------------------------------- |
+| `topics`         | list of strings | user-defined metadata for labelling blocks                                   |
+| `long_id`        | array of bytes  | the full identifier of a block, encoding all its other metadata              |
+| `creation_time`  | date-time       | the wall-clock time at which the block was created, according to the creator |
+| `creator_id`     | str             | the IPFS peer-ID of the blockchain node that created this block              |
+| `content_length` | integer         | the size of the block's content in bytes                                     |
+| `content_hash`   | array of bytes  | a cryptographic hash of the block's content                                  |
+
 
 ### Querying Using the Python API
 
