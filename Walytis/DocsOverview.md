@@ -12,7 +12,7 @@
 - [Block-Chaining](Technical/Block-Chaining.md): how blocks are chained in Walytis
 - [BlockchainBirth](Technical/BlockchainBirth.md): 
 - [Blocks](Technical/Blocks.md): blocks' components and how they work
-- [DevOps](Technical/DevOps.md): 
+- [DevOps](Technical/DevOps/DevOps.md): 
 - [Installation](Technical/Installation.md): how Walytis is installed
 - [Joining](Technical/Joining.md): the mechanisms behind nodes becoming new members of existing blockchains
 - [LeafBlockBroadcasts](Technical/LeafBlockBroadcasts.md): When a blockchain is quiet, how do members coming online get the blocks they've missed out on?
