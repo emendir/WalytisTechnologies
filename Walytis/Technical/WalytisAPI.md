@@ -1,6 +1,6 @@
 _how applications interact with blockchains_
 _To get an overview of the API from the application programmer's perspective, see [walytis_api-Overview](../User/walytis_api-Overview.md)_.
-_For more detailed information about the API's functions and classes, see the [API-Reference](https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/walytis_beta_interface.html)_.
+_For more detailed information about the API's functions and classes, see the [API-Reference](https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_api.walytis_beta_interface.html)_.
 _For a more user-friendly guide on how to use the API, see the [the walytis_api tutorials](../Tutorials/0-TutorialOverview.md) ._
 _For more technical detail on how the communication technologies underlying WalytisAPI work, see [BrenthyAPI](https://github.com/emendir/BrenthyAndWalytis/blob/master/Documentation/Brenthy/Technical/BrenthyAPI.md)_.
 
@@ -12,7 +12,7 @@ Walytis is the system that allows applications to interact with Walytis blockcha
 
 To understand how WalytisAPI works, let's return to the overview of how Walytis runs in the context of an operating system:
 
-![](https://github.com/emendir/BrenthyAndWalytis/blob/master/Documentation/Brenthy/Meaning/OS-Brenthy-Blockchain-Model.drawio.svg)
+![](https://raw.githubusercontent.com/emendir/BrenthyAndWalytis/07e5d27df47b926cad3262d863bfef8d21649557/Documentation/Brenthy/Meaning/OS-Brenthy-Blockchain-Model.drawio.svg)
 
 
 

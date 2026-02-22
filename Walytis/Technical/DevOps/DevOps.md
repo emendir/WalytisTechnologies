@@ -13,7 +13,7 @@ Walytis' testing system needs to be run in an environment that has the following
 - docker
 - ipfs
 - python
-- python packages listed in [/requirements.txt](https://github.com/emendir/Walytis_Beta/tree/master/requirements.txt) and [/requirements-devops.txt](https://github.com/emendir/Walytis_Beta/tree/master/requirements-devops.txt)
+- python packages listed in [/requirements.txt](https://github.com/emendir/Walytis_Beta/tree/master/requirements.txt) and [/requirements-dev.txt](https://github.com/emendir/Walytis_Beta/tree/master/requirements-dev.txt)
 
 For example, setting up a testing environment can be as simple as installing docker and python on your computer and running `pip install -r $FILENAME` on the the two requirements files.
 

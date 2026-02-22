@@ -85,7 +85,7 @@ To learn how this works in Walytis, read [The Walytis Blockchain-Architecture Se
 
 ## Techy Details:
 
-To gain a full understanding of how Walytis works, check out the [overview of the technical documentation](../../../WalytisIdentities/tests/walid_docker/python_packages/Walytis_Beta/docs/DocsOverview.md#Technical).
+To gain a full understanding of how Walytis works, check out the [overview of the technical documentation](../../DocsOverview.md#Walytis%20-%20Technical).
 
 Here are some of the highlights:
 

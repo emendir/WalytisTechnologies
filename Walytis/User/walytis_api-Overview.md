@@ -1,6 +1,6 @@
 _an overview of the functions and classes in the `walytis_api` library_
 
-_For more detailed information about the API's functions and classes, see the [API-Reference](https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/walytis_beta_interface.html)_.
+_For more detailed information about the API's functions and classes, see the [API-Reference](https://html-preview.github.io/?url=https%3A%2F%2Fgithub.com%2Femendir%2FWalytis_Beta%2Fblob%2Fmaster%2Fdocs%2FAPI-Reference%2FREADME.html)_.
 _For a more user-friendly guide on how to use the API, see the [the walytis_api tutorials](../Tutorials/0-TutorialOverview.md) ._
 _To learn how WalytisAPI works to connect applications with blockchains, see [WalytisAPI](../Technical/WalytisAPI.md)_.
 
@@ -14,8 +14,8 @@ blockchain.add_block("Hello there!".encode()) # put data on the blockchain
 ```
 
 Use [the tutorials](../Tutorials/0-TutorialOverview.md) to learn how to use the Walytis API library.
-See the [API reference](https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/index.html) for detailed list of all the functions and classes it contains, explaining what they do and how to use them.
-This page provides a well-structured overview of `walytis_api`'s main functionality.
+See the [API reference](https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2FREADME.html) for detailed list of all the functions and classes it contains, explaining what they do and how to use them.
+This page provides a well-structured overview of `walytis_api`'s main *functionality*.
 
 ## Library Overview
 
@@ -25,7 +25,7 @@ While the programmer can achieve all functionality using a purely functional pro
 
 ### Functions
 
-API reference: [https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/walytis_beta_interface.html](https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/walytis_beta_interface.html) 
+API reference: [https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_api.walytis_beta_interface.html](https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_api.walytis_beta_interface.html) 
 #### Managing Blockchains
 
 Here is a summary (not a complete list) of the main blockchain-management functions provided by `walytis_api`:
@@ -51,7 +51,7 @@ All of these functions operate on an instance of a blockchain, whose blockchain 
 
 #### `class Blockchain`
 
-API reference: [https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/blockchain_model.html](https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/blockchain_model.html) 
+API reference: [https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_api.blockchain_model.html](https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_api.blockchain_model.html) 
 
 The `Blockchain` class isn't the code running the Walytis blockchains themselves, it is merely a construct of `walytis_api` for representing a blockchain.
 It does more than just bundling the functions listed under _Interacting with Blockchains_ into a class:
@@ -74,7 +74,8 @@ Here is a summary (not a complete list) of the blockchain-management methods the
 - delete
  
 #### `class Block`
-API reference: [https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/block_model.html](https://github.com/emendir/Walytis_Beta/tree/master/docs/API-Reference/walytis_beta_api/block_model.html#walytis_beta_api.block_model.Block) 
+
+API reference: [https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_tools.block_model.html](https://html-preview.github.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Femendir%2FWalytis_Beta%2Fmaster%2Fdocs%2FAPI-Reference%2Fwalytis_beta_tools.block_model.html) 
 
 While the `block` class in `walytis_api` provides access to all a block's low-level properties, and even provides the blockchain-context-independent block-integrity-verification functions, most programmers will only use the following attributes of the `block` class:
 - content

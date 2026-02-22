@@ -144,5 +144,5 @@ A message containing formatted text and an image might contain the following con
 
 ## Message Content Encoding
 
-Message blocks and message attachment blocks are each, in the entirety of the [content structure described above](#Message%20Content%20Block%20Structure), encoded into binary using Protobuff, following a predefined Protobuff-Schema.
+Message blocks and message attachment blocks are each, in the entirety of the [content structure described above](#Message%20Content%20Structure), encoded into binary using Protobuff, following a predefined Protobuff-Schema.
 This encoding system is also versioned, so that if the flexibility of the message content structure described above were not to be enough for future developments, the message content structure and encoding could be updated relatively easily.

@@ -3,14 +3,22 @@
 
 - [1-IntroToEndra](Endra/1-IntroToEndra.md): 
 - [2-EndraStack](Endra/2-EndraStack.md): 
+- [3-MessagingArchitecture](Endra/3-MessagingArchitecture.md): 
+- [4-Message-Architecture](Endra/4-Message-Architecture.md): 
+- [5-Data-Storage-and-Sync](Endra/5-Data-Storage-and-Sync.md): 
+- [6-Cryptography](Endra/6-Cryptography.md): 
+- [7-Networking](Endra/7-Networking.md): 
+- [8-Security](Endra/8-Security.md): 
+- [Robustness](Endra/Robustness.md): 
+- [ToDo](Endra/ToDo.md): 
 
 ## EndraApp
 
 - [1-IntroToEndraApp](EndraApp/1-IntroToEndraApp.md): 
-
-## Walytis
-
-- [DocsOverview](Walytis/DocsOverview.md): 
+- [2-RunningEndraAppPackages](EndraApp/2-RunningEndraAppPackages.md): 
+- [3-RunningFromSource](EndraApp/3-RunningFromSource.md): 
+- [4-EnvironmentVariables](EndraApp/4-EnvironmentVariables.md): 
+- [5-Logging](EndraApp/5-Logging.md): 
 
 ## Walytis - Meaning
 
@@ -25,7 +33,6 @@
 - [Block-Chaining](Walytis/Technical/Block-Chaining.md): how blocks are chained in Walytis
 - [BlockchainBirth](Walytis/Technical/BlockchainBirth.md): 
 - [Blocks](Walytis/Technical/Blocks.md): blocks' components and how they work
-- [DevOps](Walytis/Technical/DevOps.md): 
 - [Installation](Walytis/Technical/Installation.md): how Walytis is installed
 - [Joining](Walytis/Technical/Joining.md): the mechanisms behind nodes becoming new members of existing blockchains
 - [LeafBlockBroadcasts](Walytis/Technical/LeafBlockBroadcasts.md): When a blockchain is quiet, how do members coming online get the blocks they've missed out on?
@@ -35,6 +42,11 @@
 - [WalytisBlockchainSecurity](Walytis/Technical/WalytisBlockchainSecurity.md): the mechanisms built into Walytis to preserve blockchains' data integrity
 - [WalytisLogs](Walytis/Technical/WalytisLogs.md): how Brenthy manages logging
 - [WalytisVersioning](Walytis/Technical/WalytisVersioning.md): the version numbering systems of Walytis, the Walytis Protocol, the Walytis API, and the `walytis_api` library
+
+## Walytis - Technical - DevOps
+
+- [DevOps](Walytis/Technical/DevOps/DevOps.md): 
+- [TipsForTests](Walytis/Technical/DevOps/TipsForTests.md): 
 
 ## Walytis - Tutorials
 
@@ -61,6 +73,11 @@
 - [1-CoreConcepts](WalytisIdentities/2-HowItWorks/1-CoreConcepts.md): 
 - [2-Communication](WalytisIdentities/2-HowItWorks/2-Communication.md): 
 - [3-KeyManagement](WalytisIdentities/2-HowItWorks/3-KeyManagement.md): 
+- [4-DidManager](WalytisIdentities/2-HowItWorks/4-DidManager.md): 
+- [5-GroupDidManager](WalytisIdentities/2-HowItWorks/5-GroupDidManager.md): 
+- [6-DidManagerWithSupers](WalytisIdentities/2-HowItWorks/6-DidManagerWithSupers.md): 
+- [7-SecureDataTransmission](WalytisIdentities/2-HowItWorks/7-SecureDataTransmission.md): 
+- [8-CryptographicAlgorithms](WalytisIdentities/2-HowItWorks/8-CryptographicAlgorithms.md): 
 
 ## WalytisMutability
 
@@ -69,4 +86,5 @@
 ## WalytisOffchain
 
 - [1-IntroToWalytisOffchain](WalytisOffchain/1-IntroToWalytisOffchain.md): 
+- [2-How-It-Works](WalytisOffchain/2-How-It-Works.md): 
 
