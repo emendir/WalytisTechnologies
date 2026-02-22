@@ -1,4 +1,5 @@
 # Endra App
+
 _A P2P encrypted messenger supporting multiple devices per user._
 
 Endra is a messenger that provides end-to-end encrypted peer-to-peer communications, with modern identity-management supporting multiple devices per user account and multiple user accounts can be installed on the same device.
