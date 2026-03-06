@@ -1,3 +1,7 @@
+## Fixes
+
+- consistent naming of EndraApp
+
 ## Add docs for:
 
 - multiple devices per user
