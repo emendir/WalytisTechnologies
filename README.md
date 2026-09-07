@@ -2,9 +2,13 @@
 
 _A collection of tools for real-world peer-to-peer communications, built around the Walytis blockchain._
 
-The Walytis Technologies are open-source modular systems built to enable developers to easily develop peer-to-peer distributed applications.
+The Walytis Technologies are open-source modular systems built to enable developers to easily develop peer-to-peer distributed applications, such as:
+- P2P messaging & calling
+- P2P calendar synchronisation
+- P2P versioned filesystem sharing
+- P2P git repository synchronisation
 
-See the [RoadMap](RoadMap.md) for the applications this project has set its sights on.
+See the [RoadMap](RoadMap.md) for more details.
 
 ## Flagship - The Endra Messenger
 
@@ -22,8 +26,8 @@ Currently, the Walytis Technologies project comprises the following components, 
 - [WalytisIdentities](WalytisIdentities/1-IntroToWalytisIdentities.md): P2P multi-controller cryptographic identity management, built on Walytis.
 - [WalytisOffchain](WalytisOffchain/1-IntroToWalytisOffchain.md): Secure access-controlled database-blockchain, built on WalytisIdentities.
 - [WalytisMutability](WalytisMutability/1-IntroToWalytisMutability.md): A Walytis blockchain overlay featuring block mutability.
-- [Endra](Endra/1-IntroToEndra.md): A P2P encrypted messaging protocol with multiple devices per user, built on Walytis.
-- [EndraApp](EndraApp/1-IntroToEndraApp.md): A P2P encrypted messenger supporting multiple devices per user, built on Walytis.
+- [Endra](Endra/1-IntroToEndra.md): A P2P encrypted messaging protocol, built on WalytisOffchain & WalytisMutability.
+- [EndraApp](EndraApp/1-IntroToEndraApp.md): A P2P encrypted messenger app, built on Endra.
 
 To learn how these components work together, see the documentation for the [Endra Tech Stack](Endra/2-EndraStack.md).
 

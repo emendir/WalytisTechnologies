@@ -46,6 +46,7 @@ The goal of the WalytisTechnologies project is to provide robust peer-to-peer al
 	- [ ] video
 	- [x] file attachments
 - [ ] Architecture: message relay via untrusted peers
+- [ ] Architecture: forward compatibility
 - [ ] Feature: support for audio & video calls
 - [ ] Feature: transmission/sharing for large files (with progress tracking)
 - [ ] Feature: multiple access levels: identity control, read/write, read-only
