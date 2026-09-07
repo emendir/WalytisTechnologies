@@ -4,10 +4,14 @@ _A collection of tools for real-world peer-to-peer communications, built around 
 
 The Walytis Technologies are open-source modular systems built to enable developers to easily develop peer-to-peer distributed applications.
 
-## Flagship
+See the [RoadMap](RoadMap.md) for the applications this project has set its sights on.
+
+## Flagship - The Endra Messenger
+
 The flagship product of these modular systems is the [Endra Tech Stack](Endra/2-EndraStack.md), which combines all the Walytis technologies to produce the [Endra messaging protocol](Endra/1-IntroToEndra.md) and the the [Endra messenger application](./EndraApp).
 
-## Core
+## Core - A Non-Linear Blockchain
+
 At the core of these systems lies Walytis, a flexible, lightweight, nonlinear blockchain, serving as a peer-to-peer distributed database.
 It was the initial invention that led to the rest of the Walytis technologies, which include blockchain overlays that provide additional database features and other tools like cryptographic identity management and secure communications.
 
