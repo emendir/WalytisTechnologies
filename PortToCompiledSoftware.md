@@ -9,6 +9,7 @@ Once they reach maturity, they will be rewritten in a compiled language, for the
 ## Candidate Languages
 
 ### Rust
+
 - better portability, easier to integrate in other languages and frameworks
 	- better WASM support
 	- runtime-free
@@ -28,8 +29,10 @@ Once they reach maturity, they will be rewritten in a compiled language, for the
 ## Scope
 
 ### Inclusions
+
 - the Walytis Technologies software libraries that make up the [Endra stack](Endra/2-EndraStack.md)
 
 ### Notable Exclusions
+
 - testing framework
 - GUI app (to be rewritten in a better cross-platform GUI framework, maybe Flutter, for example)

@@ -52,10 +52,18 @@ The goal of the WalytisTechnologies project is to provide robust peer-to-peer al
 - [ ] Feature: multiple access levels: identity control, read/write, read-only
 - [ ] Performance: improve reliability and speed (to degree necessary for production-grade messaging)
 - [ ] Security: minimise metadata leakage
+	- [x] rearchitect relationship between Walytis, WalytisIdentities and networking ✅ 2026-09-13
+	- [ ] implement secured block gossip
+	- [ ] implement secured block sharing
+	- [ ] encrypt all local storage of metadata
 - [x] Packaging: develop build pipelines for Linux Flatpak, Windows, MacOS & Android
 - [ ] Testing: develop chaotic simulation test
 - [ ] Docs: write protocol specifications for all layers of the Endra Stack
 
+- [ ] interplanetary transmission:
+	- [ ] data cargo (based on relay/courier system)
+	- [ ] strongest possible compression
+- [ ] fork resolution
 ## Phase IV - Build Production-Grade Software
 
 ### Endra Stack
