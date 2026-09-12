@@ -6,8 +6,8 @@ Every Walytis Identity has its own dedicated blockchain on which it publishes it
 The data on this blockchain is read by the Identity's controllers and by other identities that wish to interact with it.
 A Walytis Identity's identifier (DID) is  `did:walytisidentities:` followed by its blockchain's ID.
 
-
 ## Data Stored on an Identity's Blockchain
+
 - cryptographic key (public key and algorithm)
 - list of this identity's controllers (DID and blockchain invitation)
 - list of identities of which this identity is a controller
@@ -15,3 +15,7 @@ A Walytis Identity's identifier (DID) is  `did:walytisidentities:` followed by i
 
 All of the above data can change over time.
 To learn how this data authenticated when published, see [3-KeyManagement](3-KeyManagement.md)
+
+### Security Strategy
+
+No aspect of security (except for performance protection against spam and metadata leakage) is achieved via access protection to the Walytis Database or communication endpoints (e.g. IPFS pubsub, IPFS-TK listeners). Instead, it is achieved through the algorithms that process data on the database and the WalID-protocols of inter-node communication.

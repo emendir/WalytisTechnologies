@@ -40,7 +40,7 @@ _See [WalytisIdentities-SecureDataTransmission](../WalytisIdentities/2-HowItWork
 
 ### Data Storage
 
-- All private content (e.g. messages) are stored locally on each node/peer's filesystem in an SQLite database, encrypted with compounded keys of different algorithms which are each used a limited number of times, but not rotated over time. See [WalytisOffchain - Storage Encryption](../WalytisOffchain/2-How-It-Works.md#Storage%20Encryption).
+- All private content (e.g. messages) are stored locally on each node/peer's filesystem in an SQLite database, encrypted with compounded keys of different algorithms which are each used a limited number of times, but not rotated over time. See [WalytisOffchain - Storage Encryption](../WalytisOffchain/2-HowItWorks/1-PrivateContent-Storage.md#Storage%20Encryption).
 - All private keys are stored locally on each node/peer's filesystem encrypted in a JSON file. 
 
 ### Data Indexing and Provenance
