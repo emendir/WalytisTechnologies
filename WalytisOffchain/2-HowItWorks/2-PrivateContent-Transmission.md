@@ -1,0 +1,4 @@
+## Transmission of Private Content
+
+- Sensitive offchain-stored content is shared among the members of the WalytisOffchain database-blockchain's GroupDidManager.
+- To securely transmit this sensitive data among peers, WalytisOffchain uses [WalytisIdenties' DataTransmission](../../WalytisIdentities/2-HowItWorks/7-SecureDataTransmission.md) which ensures data is transmitted with compounded encryption using multiple keys of different algorithms only to authorised peers. WalytisIdentities also takes care of the key management for this, see [WalytisIdentities-KeyManagement](../../WalytisIdentities/2-HowItWorks/3-KeyManagement.md).

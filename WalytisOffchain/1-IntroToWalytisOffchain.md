@@ -11,7 +11,7 @@ Compared to the Walytis blockchain, WalytisOffchain has the following unique fea
 
 ## How it Works
 
-_For more details, see [How-It-Works](2-How-It-Works.md)._
+_For more details, see [How-It-Works](2-HowItWorks/1-PrivateContent-Storage.md)._
 
 #### Authorised Peer and Cryptographic Key Management
 
