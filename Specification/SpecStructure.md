@@ -1,8 +1,11 @@
 ###  Overall Integration Architecture
 
 - Purpose #informative
-- Technology Stack #normative
-	- layer responsibilities
+- Overview #informative
+	- Technology Stack
+		- layer responsibilities
+- Provided Services #normative
+- Required Services #normative
 - State Model #normative
 - Security Model #normative
 - Security Analysis #informative
@@ -14,11 +17,13 @@
 - Overview #informative
 - Required Services #normative
 	- interface specification
-	- expectations  / behaviour assumptions
-	- failure assumptions
+	- required behaviour
+	- limitations
+	- _when a requirement is a service provided by another layer in the stack, simply refer to it rather than respecifying/redefining it_
 - Provided Services #normative
 	- interface specification
-	- behaviour guarantees
+	- guaranteed behaviour
+	- limitations
 - State Model #normative
 	- objects
 	- state machines / lifecycle
@@ -30,13 +35,13 @@
 	- wire format
 	- algorithms
 	- failure semantics
-- Security Contract #normative
-	- assumptions
-	- guarantees
-	- non-guarantees
-	- threat Model
-	- trust Boundaries
+- Security Model #normative
+	- trust model
+	- threat model
+	- adversary model
+	- security boundaries
 	- public-facing metadata
+	- _assumptions, guarantees & limitations are documented under 'Required Services' and 'Provided Services'_
 - Security Analysis #informative
 - Design Rationale #informative
 - Versioning #normative
