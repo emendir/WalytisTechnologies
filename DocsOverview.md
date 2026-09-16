@@ -86,5 +86,5 @@
 ## WalytisOffchain
 
 - [1-IntroToWalytisOffchain](WalytisOffchain/1-IntroToWalytisOffchain.md): 
-- [2-How-It-Works](WalytisOffchain/2-How-It-Works.md): 
+- [1-PrivateContent-Storage](WalytisOffchain/2-HowItWorks/1-PrivateContent-Storage.md): 
 

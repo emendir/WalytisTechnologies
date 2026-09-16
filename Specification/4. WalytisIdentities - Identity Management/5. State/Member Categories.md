@@ -1,0 +1,10 @@
+- observers
+	- have identity keys' public parts
+	- have read/write access to the identity's blockchain
+	- authorised by members, documented by nonlinear blocks
+- members:
+	- have identity keys' private parts
+	- authorised by other members, documented by nonlinear blocks
+- controllers:
+	- have voting rights on the linear blockchain for updating identity keys and controllers list
+	- 

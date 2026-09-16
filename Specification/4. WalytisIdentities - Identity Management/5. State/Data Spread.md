@@ -1,0 +1,1 @@
+What data is stored where and communicated with whom.

@@ -1,5 +1,5 @@
 ### W3C's DID-Specification
-WalytisIdentities implements the [World-Wide-Web-Consoritum's (W3C's) Decentralised Identifiers (DIDs) specifications](https://www.w3.org/TR/did-core/) because those specifications align its approach to managing identities and their cryptographic cores.
+WalytisIdentities implements the [World-Wide-Web-Consoritum's (W3C's) Decentralised Identifiers (DIDs) specifications](https://www.w3.org/TR/did-core/) because those specifications align with its approach to managing identities and their cryptographic cores.
 In the DID specification's model, WalytisIdentities is a [DID method](https://www.w3.org/TR/did-core/#methods),
 
 The concepts discussed here which lie at the core of what WalytisIdentities is and how it works match the DID specification, and I have included the homologous terminology of the specification in rounded brackets and italicised font for reference where it differs. 

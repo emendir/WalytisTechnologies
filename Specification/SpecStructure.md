@@ -13,37 +13,37 @@
 
 ### Per Layer
 
-- Purpose #informative
-- Overview #informative
-- Required Services #normative
+1. Purpose #informative
+2. Provided Services #normative
+	- interface specification
+	- guaranteed behaviour
+	- limitations
+3. Required Services #normative
 	- interface specification
 	- required behaviour
 	- limitations
 	- _when a requirement is a service provided by another layer in the stack, simply refer to it rather than respecifying/redefining it_
-- Provided Services #normative
-	- interface specification
-	- guaranteed behaviour
-	- limitations
-- State Model #normative
+4. System Overview #informative
+5. State Model #normative
 	- objects
 	- state machines / lifecycle
 	- algorithms?
 	- invariants
-- Protocol #normative
+6. Protocol #normative
 	- data model
 	- protocol state machine
 	- wire format
 	- algorithms
 	- failure semantics
-- Security Model #normative
+7. Security Model #normative
 	- trust model
-	- threat model
 	- adversary model
+	- threat model
 	- security boundaries
 	- public-facing metadata
 	- _assumptions, guarantees & limitations are documented under 'Required Services' and 'Provided Services'_
-- Security Analysis #informative
-- Design Rationale #informative
+8. Security Analysis #informative
+9. Design Rationale #informative
 - Versioning #normative
 
 ### Per Implementation
