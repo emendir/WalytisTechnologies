@@ -8,7 +8,9 @@ The Walytis Technologies are open-source modular systems built to enable develop
 - P2P versioned filesystem sharing
 - P2P git repository synchronisation
 
-See the [RoadMap](RoadMap.md) for more details.
+This repository contains the documentation for the various components of the Walytis Technologies.  
+For code and releases, see [Code Repositories](#code-repositories).  
+See the [RoadMap](RoadMap.md) for development plans.  
 
 ## Flagship - The Endra Messenger
 
@@ -61,12 +63,10 @@ This means they're fully functional and demonstrable, but still under very activ
 
 ## [Roadmap](RoadMap.md)
 
-Currently, the main focus of development is to improve the performance and reliability of the [Endra stack](Endra/2-EndraStack.md), as well as multimedia and audio & video calls for the Endra Protocol & App.
-
-Once these components reach maturity, [they will be rewritten in a compiled language](PortToCompiledSoftware.md), mainly to improve portability and performance.
+Currently, the main focus of development is a detailed and formal specification for the entire stack of the Endra Protocol.
+The specification will provide the foundation for reaching the next level of maturity for the project.
 
 For more details,  see the [Walytis Technologies Roadmap](RoadMap.md).
-
 
 ## Open-Source in the Public Domain
 
@@ -95,5 +95,15 @@ Donations help me:
 - dedicate more time to developing and maintaining open-source projects
 - cover costs for IT resources
 
+## Code Repositories
+
+The code and releases for the various components live in separate repositories:
+
+- [Walytis](https://github.com/emendir/Walytis_Beta): A flexible, lightweight, nonlinear database-blockchain, built on IPFS.
+- [WalytisIdentities](https://github.com/emendir/WalytisIdentities): P2P multi-controller cryptographic identity management, built on Walytis.
+- [WalytisOffchain](https://github.com/emendir/WalytisOffchain): Secure access-controlled database-blockchain, built on WalytisIdentities.
+- [WalytisMutability](https://github.com/emendir/WalytisMutability): A Walytis blockchain overlay featuring block mutability.
+- [Endra](https://github.com/emendir/Endra): A P2P encrypted messaging protocol, built on WalytisOffchain & WalytisMutability.
+- [EndraApp](https://github.com/emendir/EndraApp): A P2P encrypted messenger app, built on Endra.
 
 
