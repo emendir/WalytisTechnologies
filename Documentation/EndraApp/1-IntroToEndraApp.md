@@ -47,7 +47,7 @@ Coming soon: Nix, AUR
 - .app package for x86-64 and arm64
 
 ### iOS
-probably coming later, in [Phase IV of the Endra Roadmap](../../RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
+probably coming later, in [Phase IV of the Endra Roadmap](../../RoadMap/RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
 
 ### Windows
 - portable EXE for x86-64

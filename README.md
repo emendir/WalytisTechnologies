@@ -10,7 +10,7 @@ The Walytis Technologies are open-source modular systems built to enable develop
 
 This repository contains the documentation for the various components of the Walytis Technologies.  
 For code and releases, see [Code Repositories](#code-repositories).  
-See the [RoadMap](RoadMap.md) for development plans.  
+See the [RoadMap](RoadMap/RoadMap.md) for development plans.  
 
 ## Flagship - The Endra Messenger
 
@@ -49,7 +49,7 @@ These systems are modular, allowing developers to choose and combine those compo
 ### Programming Languages
 
 Currently, all Walytis technologies are built in Python.
-In the future, they [will be rewritten into a compiled language](PortToCompiledSoftware.md) to make them easier to use in other languages, perhaps even with WebAssembly support. 
+In the future, they [will be rewritten into a compiled language](RoadMap/PortToCompiledSoftware.md) to make them easier to use in other languages, perhaps even with WebAssembly support. 
 
 ### Target Devices
 
@@ -61,12 +61,12 @@ So far, they've been tested on Linux and Android.
 The components of Walytis Technologies are all in alpha or beta phase.
 This means they're fully functional and demonstrable, but still under very active development and are not ready for production use-cases.
 
-## [Roadmap](RoadMap.md)
+## [Roadmap](RoadMap/RoadMap.md)
 
 Currently, the main focus of development is a detailed and formal specification for the entire stack of the Endra Protocol.
 The specification will provide the foundation for reaching the next level of maturity for the project.
 
-For more details,  see the [Walytis Technologies Roadmap](RoadMap.md).
+For more details,  see the [Walytis Technologies Roadmap](RoadMap/RoadMap.md).
 
 ## Open-Source in the Public Domain
 
