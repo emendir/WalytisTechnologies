@@ -18,7 +18,7 @@ Each of these components provides a certain set of features, and when they are c
 
 ### Runtime
 
-The Endra app and the entirety of the [Walytis Technologies](../ReadMe.md) is written in Python.
+The Endra app and the entirety of the [Walytis Technologies](../../README.md) is written in Python.
 The only part of the stack that isn't is IPFS/libp2p, where the Go implementation is used.
 The GUI framework used is [kivy](https://kivy.org/).
 
@@ -47,7 +47,7 @@ Coming soon: Nix, AUR
 - .app package for x86-64 and arm64
 
 ### iOS
-probably coming later, in [Phase IV of the Endra Roadmap](../RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
+probably coming later, in [Phase IV of the Endra Roadmap](../../RoadMap.md#Phase%20IV%20-%20Transform%20into%20Production-Grade%20Software), unless
 
 ### Windows
 - portable EXE for x86-64

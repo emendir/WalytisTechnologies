@@ -48,5 +48,5 @@ Together they constitute the system called BrenthyAPI, which other libraries suc
 
 WalytisAPI is built on top of BrenthyAPI: `walytis_api` passes its WalytisAPI requests to the `brenthy_tools.brenthy_api` library, which encapsulates them into BrenthyAPI requests which it sends to Brenthy Core, which passes on the encapsulated WalytisAPI requests to Walytis Core.
 
-![](../Technical/Dataflow.drawio.svg)
+![](Dataflow.drawio.svg)
 

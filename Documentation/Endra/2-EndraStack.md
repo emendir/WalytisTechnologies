@@ -1,7 +1,7 @@
 # The Endra Tech Stack
 
 The Endra stack is a layered set of decentralised communications technologies that power the [Endra protocol](1-IntroToEndra.md), a fully peer-to-peer (P2P) messaging system with multiple devices per user, ephemeral cryptography, etc.
-It is the flagship product compilation of the open-source public-domain [Walytis Technologies](../ReadMe.md) project.
+It is the flagship product compilation of the open-source public-domain [Walytis Technologies](../../README.md) project.
 
 The raison d'état of of Endra stack begins with this question: How does one manage private message sharing, user identities, and key distribution in a P2P network with multiple devices per user?
 The Endra stack combines modularised solutions to each of these questions in a layered tech stack designed to enable developers to easily build peer-to-peer distributed applications.
@@ -11,7 +11,7 @@ The Endra stack combines modularised solutions to each of these questions in a l
 
 | Layer                                                                     | Data Features                                                                                             | Networking Features                                                  |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Endra](../Endra/1-IntroToEndra.md)                                       | - organisation of identities, contacts & chats<br>-                                                       | - near-instant messaging                                             |
+| [Endra](1-IntroToEndra.md)                                       | - organisation of identities, contacts & chats<br>-                                                       | - near-instant messaging                                             |
 | [Walytis-Mutability](../WalytisMutability/1-IntroToWalytisMutability.md)  | - mutable blocks (for editable messages)                                                                  |                                                                      |
 | [Walytis-Offchain](../WalytisOffchain/1-IntroToWalytisOffchain.md)        | - private encrypted blocks                                                                                |                                                                      |
 | [Walytis-Identities](../WalytisIdentities/1-IntroToWalytisIdentities.md)  | - identities, with nesting<br>- cryptographic key management<br>- encrypted & authenticated communication | - multi-device identities<br>- multi-controller key management       |
@@ -19,7 +19,7 @@ The Endra stack combines modularised solutions to each of these questions in a l
 | [IPFS](https://ipfs.tech)/[libp2p](https://libp2p.io/) (by Protocol Labs) | - file sharing                                                                                            | - persistent peer addressing<br>- P2P routing<br>- NAT-hole-punching |
 
 
-- **[Endra](../Endra/1-IntroToEndra.md):** a fully distributed, peer-to-peer encrypted messaging protocol, built on Walytis and its blockchain-overlays
+- **[Endra](1-IntroToEndra.md):** a fully distributed, peer-to-peer encrypted messaging protocol, built on Walytis and its blockchain-overlays
 - **[WalytisIdentities](../WalytisIdentities/1-IntroToWalytisIdentities.md), [WalytisOffchain](../WalytisOffchain/1-IntroToWalytisOffchain.md), [WalytisMutability](../WalytisMutability/1-IntroToWalytisMutability.md):** blockchain-overlays - systems providing an interface with additional features to Walytis databases
 - **[Walytis](../Walytis/Meaning/IntroductionToWalytis.md):** a database blockchain - a lightweight, non-linear & flexible blockchain for distributed databases, built on IPFS
 - **[IPFS](https://ipfs.tech):** Interplanetary File System - a peer-to-peer communications and content sharing protocol, built on libp2p, developed by Protocol Labs

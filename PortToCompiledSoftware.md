@@ -1,4 +1,4 @@
-Currently, all components of [Walytis Technologies](ReadMe.md) that make up the [Endra stack](Endra/2-EndraStack.md) are written in Python.
+Currently, all components of [Walytis Technologies](ReadMe.md) that make up the [Endra stack](Documentation/Endra/2-EndraStack.md) are written in Python.
 Once they reach maturity, they will be rewritten in a compiled language, for the reasons described below.
 
 ## Reasons and Aims
@@ -30,7 +30,7 @@ Once they reach maturity, they will be rewritten in a compiled language, for the
 
 ### Inclusions
 
-- the Walytis Technologies software libraries that make up the [Endra stack](Endra/2-EndraStack.md)
+- the Walytis Technologies software libraries that make up the [Endra stack](Documentation/Endra/2-EndraStack.md)
 
 ### Notable Exclusions
 

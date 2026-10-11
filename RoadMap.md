@@ -18,7 +18,7 @@ The goal of the WalytisTechnologies project is to provide robust peer-to-peer al
 - P2P git repository synchronisation
 - P2P project management
 
-## ✅ Phase I - Reinvent Blockchain ([Walytis](Walytis/Meaning/IntroductionToWalytis.md)) (2019-2024)
+## ✅ Phase I - Reinvent Blockchain ([Walytis](Documentation/Walytis/Meaning/IntroductionToWalytis.md)) (2019-2024)
 
 - [x] Architecture: proof of concept prototype for non-linear blockchain
 - [x] DevOps: automated testing for blockchain
@@ -28,10 +28,10 @@ The goal of the WalytisTechnologies project is to provide robust peer-to-peer al
 
 ## ✅ Phase II - Develop Functional Endra Stack and App (2024-2025)
 
-- [x] Architecture: identity management ([WalytisIdentities](WalytisIdentities/1-IntroToWalytisIdentities.md))
-- [x] Architecture: access control and confidentiality ([WalytisOffchain](WalytisOffchain/1-IntroToWalytisOffchain.md)) 
-- [x] Architecture: data mutability ([WalytisMutability](WalytisMutability/1-IntroToWalytisMutability.md))
-- [x] DevOps: GUI app ([EndraApp](EndraApp/1-IntroToEndraApp.md))
+- [x] Architecture: identity management ([WalytisIdentities](Documentation/WalytisIdentities/1-IntroToWalytisIdentities.md))
+- [x] Architecture: access control and confidentiality ([WalytisOffchain](Documentation/WalytisOffchain/1-IntroToWalytisOffchain.md)) 
+- [x] Architecture: data mutability ([WalytisMutability](Documentation/WalytisMutability/1-IntroToWalytisMutability.md))
+- [x] DevOps: GUI app ([EndraApp](Documentation/EndraApp/1-IntroToEndraApp.md))
 	- [x] linux standalone executable
 	- [x] mobile
 

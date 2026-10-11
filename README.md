@@ -14,7 +14,7 @@ See the [RoadMap](RoadMap.md) for development plans.
 
 ## Flagship - The Endra Messenger
 
-The flagship product of these modular systems is the [Endra Tech Stack](Endra/2-EndraStack.md), which combines all the Walytis technologies to produce the [Endra messaging protocol](Endra/1-IntroToEndra.md) and the the [Endra messenger application](./EndraApp).
+The flagship product of these modular systems is the [Endra Tech Stack](Documentation/Endra/2-EndraStack.md), which combines all the Walytis technologies to produce the [Endra messaging protocol](Documentation/Endra/1-IntroToEndra.md) and the the [Endra messenger application](./EndraApp).
 
 ## Core - A Non-Linear Blockchain
 
@@ -24,14 +24,14 @@ It was the initial invention that led to the rest of the Walytis technologies, w
 ## Components Overview
 
 Currently, the Walytis Technologies project comprises the following components, with more coming soon: 
-- [Walytis](Walytis/Meaning/IntroductionToWalytis.md): A flexible, lightweight, nonlinear database-blockchain, built on IPFS.
-- [WalytisIdentities](WalytisIdentities/1-IntroToWalytisIdentities.md): P2P multi-controller cryptographic identity management, built on Walytis.
-- [WalytisOffchain](WalytisOffchain/1-IntroToWalytisOffchain.md): Secure access-controlled database-blockchain, built on WalytisIdentities.
-- [WalytisMutability](WalytisMutability/1-IntroToWalytisMutability.md): A Walytis blockchain overlay featuring block mutability.
-- [Endra](Endra/1-IntroToEndra.md): A P2P encrypted messaging protocol, built on WalytisOffchain & WalytisMutability.
-- [EndraApp](EndraApp/1-IntroToEndraApp.md): A P2P encrypted messenger app, built on Endra.
+- [Walytis](Documentation/Walytis/Meaning/IntroductionToWalytis.md): A flexible, lightweight, nonlinear database-blockchain, built on IPFS.
+- [WalytisIdentities](Documentation/WalytisIdentities/1-IntroToWalytisIdentities.md): P2P multi-controller cryptographic identity management, built on Walytis.
+- [WalytisOffchain](Documentation/WalytisOffchain/1-IntroToWalytisOffchain.md): Secure access-controlled database-blockchain, built on WalytisIdentities.
+- [WalytisMutability](Documentation/WalytisMutability/1-IntroToWalytisMutability.md): A Walytis blockchain overlay featuring block mutability.
+- [Endra](Documentation/Endra/1-IntroToEndra.md): A P2P encrypted messaging protocol, built on WalytisOffchain & WalytisMutability.
+- [EndraApp](Documentation/EndraApp/1-IntroToEndraApp.md): A P2P encrypted messenger app, built on Endra.
 
-To learn how these components work together, see the documentation for the [Endra Tech Stack](Endra/2-EndraStack.md).
+To learn how these components work together, see the documentation for the [Endra Tech Stack](Documentation/Endra/2-EndraStack.md).
 
 ## Dependencies
 
