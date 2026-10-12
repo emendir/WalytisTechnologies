@@ -1,3 +1,4 @@
+## Specifications Development Plan
 - [x] General requirements
 	- [x] OS/environment
 	- [x] networking
@@ -20,6 +21,7 @@
 	- [ ] [7. Security Model](5.%20WalytisIdentities%20-%20Networking/7.%20Security%20Model.md)
 	- [ ] 8. Security analysis
 	- [ ] [9. Design Rationale](4.%20WalytisIdentities%20-%20Identity%20Management/9.%20Design%20Rationale.md)
+- [ ] Draft _5. State_ for _Member Management_ and _Super Management_
 - [ ] Decide whether to integrate or separate the specs for WalytisIdentities Identity Management, Member Management, and Super Management.
 - [ ] Write _Purpose_ for all other layers.
 - [ ] Write _Provided Services_ for all other layers.
