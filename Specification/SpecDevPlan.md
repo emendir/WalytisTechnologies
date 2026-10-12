@@ -12,9 +12,9 @@
 	- [ ] [7. Security Model](5.%20WalytisIdentities%20-%20Networking/7.%20Security%20Model.md)
 	- [ ] [9. Design Rationale](4.%20WalytisIdentities%20-%20Identity%20Management/9.%20Design%20Rationale.md)
 - [ ] Complete Walytis
-	- [ ] [1. Purpose](6.%20WalytisIdentities%20-%20Identity%20Member%20Management/1.%20Purpose.md)
+	- [x] [1. Purpose](6.%20WalytisIdentities%20-%20Identity%20Member%20Management/1.%20Purpose.md)
 	- [ ] [2. Provided Services](4.%20WalytisIdentities%20-%20Identity%20Management/2.%20Provided%20Services.md)
-	- [ ] [3. Required Services](4.%20WalytisIdentities%20-%20Identity%20Management/3.%20Required%20Services.md)
+	- [x] [3. Required Services](4.%20WalytisIdentities%20-%20Identity%20Management/3.%20Required%20Services.md)
 	- [ ] [4. System Overview](4.%20WalytisIdentities%20-%20Identity%20Management/4.%20System%20Overview.md)
 	- [ ] 5. State
 	- [ ] 6. Protocol

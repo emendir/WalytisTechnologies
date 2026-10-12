@@ -2,7 +2,7 @@ _a basic understanding of what blockchain technologies are and how they work_
 
 ## What Blockchains Are
 
-Blockchain is a technology that creates decentralised eternal databases, where users can add new data but not change or delete  existing data.
+Blockchain is a technology that creates eventually-consistent distributed databases, where users can add new data but not change or delete  existing data.
 
 Its invention was revolutionary in the world of information technology because it provided for the first time a way to guarantee the preservation of data integrity in a dynamic and distributed system.
 In plain terms, this means the ability of a person to be sure that a piece of data is original and hasn't been tampered with despite not having received it directly from its author.
