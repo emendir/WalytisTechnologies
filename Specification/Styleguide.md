@@ -71,7 +71,19 @@ P000 Messages with incorrect signatures are ignored.
 I000 The implementation MUST tolerate unexpected termination and subsequent restart.
 ```
 
-## General Syntax
+## Basic Language
+
+### Spelling
+
+Use Australian spelling.
+
+### Syntax and Punctuation
+
+### Prose Lists
+
+Use the serial comma (aka. Oxford comma).
+
+### Bulleted Lists
 
 When writing lists, do NOT join list elements with commas, full-stops or  coordinating conjunction such as "and" or "or".
 

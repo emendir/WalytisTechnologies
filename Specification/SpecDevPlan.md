@@ -1,0 +1,31 @@
+- [x] General requirements
+	- [x] OS/environment
+	- [x] networking
+	- [x] Cryptography
+- [ ] Complete WalytisIdentities (excepting Protocol, Interface specs, and Security Analysis)
+	- [x] [1. Purpose](6.%20WalytisIdentities%20-%20Identity%20Member%20Management/1.%20Purpose.md)
+	- [ ] [2. Provided Services](4.%20WalytisIdentities%20-%20Identity%20Management/2.%20Provided%20Services.md)
+	- [x] [3. Required Services](4.%20WalytisIdentities%20-%20Identity%20Management/3.%20Required%20Services.md)
+	- [x] [4. System Overview](4.%20WalytisIdentities%20-%20Identity%20Management/4.%20System%20Overview.md)
+	- [ ] 5. State
+	- [ ] [7. Security Model](5.%20WalytisIdentities%20-%20Networking/7.%20Security%20Model.md)
+	- [ ] [9. Design Rationale](4.%20WalytisIdentities%20-%20Identity%20Management/9.%20Design%20Rationale.md)
+- [ ] Complete Walytis
+	- [ ] [1. Purpose](6.%20WalytisIdentities%20-%20Identity%20Member%20Management/1.%20Purpose.md)
+	- [ ] [2. Provided Services](4.%20WalytisIdentities%20-%20Identity%20Management/2.%20Provided%20Services.md)
+	- [ ] [3. Required Services](4.%20WalytisIdentities%20-%20Identity%20Management/3.%20Required%20Services.md)
+	- [ ] [4. System Overview](4.%20WalytisIdentities%20-%20Identity%20Management/4.%20System%20Overview.md)
+	- [ ] 5. State
+	- [ ] 6. Protocol
+	- [ ] [7. Security Model](5.%20WalytisIdentities%20-%20Networking/7.%20Security%20Model.md)
+	- [ ] 8. Security analysis
+	- [ ] [9. Design Rationale](4.%20WalytisIdentities%20-%20Identity%20Management/9.%20Design%20Rationale.md)
+- [ ] Decide whether to integrate or separate the specs for WalytisIdentities Identity Management, Member Management, and Super Management.
+- [ ] Write _Purpose_ for all other layers.
+- [ ] Write _Provided Services_ for all other layers.
+- [ ] Write _Required Services_ for all other layers.
+- [ ] Write _System Overview_ for all other layers.
+- [ ] Write _Security Model_ for all other layers.
+- [ ] Draft _State_ for all other layers.
+- [ ] Draft _Protocol_ for all other layers.
+- [ ] Write Security Analysis for all layers.
