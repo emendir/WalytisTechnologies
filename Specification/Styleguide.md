@@ -29,7 +29,7 @@ R000 The underlying network MUST provide IP connectivity using at least one supp
 
 #### Limitations:
 
-R000 Any given peer might not have the newest blocks at a given point in time.
+R000 Any given peer might not have all blocks known to all other peers at a given point in time.
 ```
 
 ### Normative Declarations of Guarantees and Limitations
@@ -51,7 +51,7 @@ G000 The block content associated with a block identifier WILL NOT ever change o
 
 #### Limitations
 
-G000 Any given peer might not have the newest blocks at a given point in time.
+G000 Any given peer might not have all blocks known to all other peers at a given point in time.
 ```
 
 ### Normative Declarations of Protocol Semantics and Behaviour

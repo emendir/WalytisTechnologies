@@ -20,7 +20,7 @@ Walytis nodes communicate with each other in two different ways for different pu
 
 _See [Leaf-Block Broadcasts](LeafBlockBroadcasts.md) for more details._
 
-When the pubsub communications channel is quiet because no new blocks are being created, nodes broadcast lists of their leaf-blocks (newest blocks without children) to each other to ensure redundancy in the pubsub messages and enable nodes coming online to get up-to-date with the newest blocks quickly.
+When the pubsub communications channel is quiet because no new blocks are being created, nodes broadcast lists of their leaf-blocks (blocks without children) to each other to ensure redundancy in the pubsub messages and enable nodes coming online to get up-to-date with the newest blocks quickly.
 
 ### Blockchain Joining
 

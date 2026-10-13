@@ -14,7 +14,7 @@ Each block is linked to multiple blocks that came before it.
 In other words, each block has multiple parent blocks.
 To learn more about how exactly this linking works, see [Block-Chaining](../Technical/Block-Chaining.md).
 
-![](../Technical/NonlinearStructureDiagram.svg)
+![Example of Non-Linear Block-Chaining](../Technical/Block-Chaining-NonLinear.drawio.svg)
 
 ## Security
 Another major difference between Walytis and conventional blockchains like Bitcoin is that its security is not based on the difficulty of creating blocks.

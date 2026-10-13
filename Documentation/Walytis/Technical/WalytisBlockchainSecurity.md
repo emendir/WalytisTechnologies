@@ -67,7 +67,7 @@ Unreliable broadcasts on the IPFS-pubsub channel would prevent some nodes from b
 
 _Countermeasures:_
 - **New blocks encode in them the IDs of older blocks recently created before them**, and **new blocks are only assimilated by nodes if all their parent blocks already have been**. Thus, if a node were to miss the notification of a block, it would learn about it when processing its children blocks.
-- **When the pubsub communications channel is quiet because no new blocks are being created, nodes broadcast lists of their leaf-blocks (newest blocks without children) to each other**. This provides constant redundancy for each message published on this communications channel. Learn more under [Leaf-Block Broadcasts](LeafBlockBroadcasts.md)
+- **When the pubsub communications channel is quiet because no new blocks are being created, nodes broadcast lists of their leaf-blocks (blocks without children) to each other**. This provides constant redundancy for each message published on this communications channel. Learn more under [Leaf-Block Broadcasts](LeafBlockBroadcasts.md)
 ### Node Communication Jamming
 Walytis uses IPFS-pubsub to allow nodes to notify each other of newly created blocks.
 
