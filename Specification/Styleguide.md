@@ -10,12 +10,11 @@ This specification uses the following classes of normative statements, which are
 
  The identifier is normative and may be used to reference the statement elsewhere in this specification.
 
-### Normative Declarations of Dependency Requirements and Limitations
+### Normative Declarations of Requirements
 
 Formulate positive assumptions as requirements and negative assumptions as limitations.
 Separate these two categories.
 Use RFC 2119 requirement level vocabulary for the requirements.
-Do NOT use RFC 2119 requirement level vocabulary for the limitations. Use the term 'might' instead of 'may' in normal sentence case.
 
 For Example:
 ```
@@ -26,16 +25,13 @@ For Example:
 #### Requirements
 
 R000 The underlying network MUST provide IP connectivity using at least one supported IP version.
-
-#### Limitations:
-
-R000 Any given peer might not have all blocks known to all other peers at a given point in time.
 ```
 
 ### Normative Declarations of Guarantees and Limitations
 
 Use the following RFC 2119 inspired vocabulary and formatting for guarantees:
-- **WILL** describes behaviour guaranteed by this specification. It is a statement of the externally observable behaviour of a conforming implementation, rather than an instruction to the implementer.
+- **IS/ARE/DOES/DO** indicates state or invariants defined by this specification.
+- **WILL** describes behaviour defined or guaranteed by this specification.
 - **MAY** describes optional behaviour defined by this specification.
 Do NOT use the above or RFC 2119 requirement level vocabulary for the limitations. Use the term 'might' instead of 'may' in normal sentence case.
 
